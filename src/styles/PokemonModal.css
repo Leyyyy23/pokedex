@@ -1,0 +1,204 @@
+.pokemon-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.pokemon-modal-content {
+  background-color: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.pokemon-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+.pokemon-modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pokemon-modal-header {
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-modal-image {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  display: block;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.pokemon-modal-title {
+  margin: 10px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pokemon-modal-id {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.pokemon-modal-types {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pokemon-modal-body {
+  padding: 20px;
+}
+
+.pokemon-modal-section {
+  margin-bottom: 20px;
+}
+
+.pokemon-modal-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.pokemon-modal-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.pokemon-modal-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pokemon-modal-stat {
+  display: flex;
+  align-items: center;
+}
+
+.pokemon-modal-stat-name {
+  width: 100px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.pokemon-modal-stat-bar-container {
+  flex: 1;
+  height: 12px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.pokemon-modal-stat-bar {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.pokemon-modal-stat-value {
+  position: absolute;
+  right: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pokemon-modal-abilities {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-modal-abilities li {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  padding: 4px 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pokemon-modal-moves {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pokemon-modal-move {
+  background-color: #f5f5f5;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.pokemon-modal-loading,
+.pokemon-modal-error {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .pokemon-modal-info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pokemon-modal-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .pokemon-modal-title {
+    font-size: 24px;
+  }
+}

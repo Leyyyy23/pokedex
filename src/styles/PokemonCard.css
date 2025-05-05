@@ -1,0 +1,56 @@
+/* Add to Team button styling */
+.add-team-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-team-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-team-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-team-button.available {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+}
+
+.add-team-button.available:hover {
+  background: linear-gradient(135deg, #43A047, #2E7D32);
+}
+
+.add-team-button.in-team {
+  background: linear-gradient(135deg, #9E9E9E, #616161);
+  color: white;
+  cursor: not-allowed;
+}
+
+.add-team-button i {
+  margin-right: 6px;
+}
+
+/* Optional: Add animation for when a Pokémon is added */
+@keyframes addedToTeam {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.add-animation {
+  animation: addedToTeam 0.5s ease;
+}

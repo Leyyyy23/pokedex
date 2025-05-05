@@ -1,0 +1,749 @@
+{
+  "team": [],
+  "favorites": [],
+  "battleSessions": [
+    {
+      "id": "unique-battle-id",
+      "createdAt": "2023-07-15T14:30:00Z",
+      "status": "completed",
+      "player1": {
+        "id": "player1-id",
+        "name": "Player 1",
+        "pokemonId": 25,
+        "ready": true
+      },
+      "player2": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "asdad",
+        "pokemonId": 18,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 35,
+              "player2": 83
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 55,
+              "player2": 80
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 90,
+              "player2": 101
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:37:39.490Z"
+      },
+      "expiresAt": "2023-07-15T15:30:00Z"
+    },
+    {
+      "id": "6e8b7690-0e53-4a71-9234-0b5003caafc5",
+      "createdAt": "2025-04-22T16:42:00.150Z",
+      "status": "completed",
+      "player1": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonardnp",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "b3b96f5f-dcfe-4425-bfae-aa84e163f9f9",
+        "name": "Halon",
+        "pokemonId": 9,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 79
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 83
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 78
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-22T16:54:15.489Z"
+      },
+      "expiresAt": "2025-04-22T17:42:00.150Z"
+    },
+    {
+      "id": "0b1c0767-933f-469f-b48b-ee1c8a01fb26",
+      "createdAt": "2025-04-22T16:43:28.368Z",
+      "status": "completed",
+      "player1": {
+        "id": "af75925e-1dca-4bca-8f96-bad719b2460b",
+        "name": "Halon",
+        "pokemonId": 144,
+        "ready": true
+      },
+      "player2": {
+        "id": "b3b96f5f-dcfe-4425-bfae-aa84e163f9f9",
+        "name": "Halon",
+        "pokemonId": 9,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 90,
+              "player2": 79
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 85,
+              "player2": 83
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 85,
+              "player2": 78
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-22T16:56:10.506Z"
+      },
+      "expiresAt": "2025-04-22T17:43:28.368Z"
+    },
+    {
+      "id": "dbe11ce6-cca7-435a-a1a6-9e59d100e3ef",
+      "createdAt": "2025-04-22T16:50:48.749Z",
+      "status": "completed",
+      "player1": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonardnp",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonardnp",
+        "pokemonId": 3,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 80
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 82
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 80
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-22T16:56:46.916Z"
+      },
+      "expiresAt": "2025-04-22T17:50:48.749Z"
+    },
+    {
+      "id": "a572fd51-6b43-42d6-82d2-cea4c57e337a",
+      "createdAt": "2025-04-22T16:55:38.555Z",
+      "status": "completed",
+      "player1": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonard",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "asdad",
+        "pokemonId": 18,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 83
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 80
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 101
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:40:26.625Z"
+      },
+      "expiresAt": "2025-04-22T17:55:38.555Z"
+    },
+    {
+      "id": "54119312-4e2f-41dd-85ea-f2143da6c595",
+      "createdAt": "2025-04-22T16:57:03.354Z",
+      "status": "completed",
+      "player1": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonardnp",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "b3b96f5f-dcfe-4425-bfae-aa84e163f9f9",
+        "name": "Halon",
+        "pokemonId": 9,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 79
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 83
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 78
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-22T16:57:20.202Z"
+      },
+      "expiresAt": "2025-04-22T17:57:03.354Z"
+    },
+    {
+      "id": "1984a7e4-52e3-443b-b5a6-d32af8c69a63",
+      "createdAt": "2025-04-22T17:23:54.852Z",
+      "status": "completed",
+      "player1": {
+        "id": "96fa530d-b5ad-4064-9b40-ff7bf8573264",
+        "name": "Leonard",
+        "pokemonId": 3,
+        "ready": true
+      },
+      "player2": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "mamamo",
+        "pokemonId": 382,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 80,
+              "player2": 100
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 82,
+              "player2": 100
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 80,
+              "player2": 90
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:32:21.596Z"
+      },
+      "expiresAt": "2025-04-22T18:23:54.852Z"
+    },
+    {
+      "id": "035f5862-e14c-48c1-bd1c-f4548e6593b9",
+      "createdAt": "2025-04-23T05:22:49.806Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "Leo",
+        "pokemonId": 382,
+        "ready": true
+      },
+      "player2": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "Leonard",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 100,
+              "player2": 78
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 100,
+              "player2": 84
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 90,
+              "player2": 100
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:23:22.394Z"
+      },
+      "expiresAt": "2025-04-23T06:22:49.806Z"
+    },
+    {
+      "id": "b5734be2-6dc5-4021-9979-ec8ee20dc6e6",
+      "createdAt": "2025-04-23T05:27:36.394Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "Leo",
+        "pokemonId": 382,
+        "ready": true
+      },
+      "player2": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "ahron",
+        "pokemonId": 254,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 100,
+              "player2": 70
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 100,
+              "player2": 85
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 90,
+              "player2": 120
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:36:36.620Z"
+      },
+      "expiresAt": "2025-04-23T06:27:36.394Z"
+    },
+    {
+      "id": "2b762e30-641c-4e51-a1a2-b3a66b14a84e",
+      "createdAt": "2025-04-23T05:29:39.093Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "LEO",
+        "pokemonId": 254,
+        "ready": true
+      },
+      "player2": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "NARD",
+        "pokemonId": 9,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 70,
+              "player2": 79
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 85,
+              "player2": 83
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 120,
+              "player2": 78
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-23T05:30:08.123Z"
+      },
+      "expiresAt": "2025-04-23T06:29:39.093Z"
+    },
+    {
+      "id": "ea1b3a16-990b-4b44-b6cb-7cca4a0de919",
+      "createdAt": "2025-04-23T05:38:11.623Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "Leo",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "rey",
+        "pokemonId": 26,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 60
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 90
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 110
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:38:30.822Z"
+      },
+      "expiresAt": "2025-04-23T06:38:11.623Z"
+    },
+    {
+      "id": "d5eea1e1-d712-42e6-8644-52d6cf5943f4",
+      "createdAt": "2025-04-23T05:38:46.187Z",
+      "status": "waiting",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "as",
+        "pokemonId": 384,
+        "ready": true
+      },
+      "player2": {
+        "id": null,
+        "name": null,
+        "pokemonId": null,
+        "ready": false
+      },
+      "result": {
+        "winner": null,
+        "rounds": [],
+        "completedAt": null
+      },
+      "expiresAt": "2025-04-23T06:38:46.187Z"
+    },
+    {
+      "id": "760e56cd-30f6-443c-a552-3cebfe7fc913",
+      "createdAt": "2025-04-23T05:40:48.702Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "asdda",
+        "pokemonId": 382,
+        "ready": true
+      },
+      "player2": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "dd",
+        "pokemonId": 26,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 100,
+              "player2": 60
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 100,
+              "player2": 90
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 90,
+              "player2": 110
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T05:41:06.567Z"
+      },
+      "expiresAt": "2025-04-23T06:40:48.702Z"
+    },
+    {
+      "id": "77b988df-1676-4859-9101-8d7ee6e36177",
+      "createdAt": "2025-04-23T05:43:33.063Z",
+      "status": "completed",
+      "player1": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "rey",
+        "pokemonId": 254,
+        "ready": true
+      },
+      "player2": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "leo",
+        "pokemonId": 9,
+        "ready": true
+      },
+      "result": {
+        "winner": "player1",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 70,
+              "player2": 79
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 85,
+              "player2": 83
+            },
+            "winner": "player1"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 120,
+              "player2": 78
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-23T05:44:06.611Z"
+      },
+      "expiresAt": "2025-04-23T06:43:33.063Z"
+    },
+    {
+      "id": "19621513-9dd1-42fe-ab5e-64f8309e1392",
+      "createdAt": "2025-04-23T05:48:40.907Z",
+      "status": "completed",
+      "player1": {
+        "id": "4ff9ea71-1ecb-4ef2-8b33-aa9caa56e9dc",
+        "name": "leo",
+        "pokemonId": 6,
+        "ready": true
+      },
+      "player2": {
+        "id": "2cb8fd2c-3064-452d-afed-307f97ade328",
+        "name": "Leo",
+        "pokemonId": 384,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 78,
+              "player2": 105
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 84,
+              "player2": 150
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 100,
+              "player2": 95
+            },
+            "winner": "player1"
+          }
+        ],
+        "completedAt": "2025-04-23T05:49:02.030Z"
+      },
+      "expiresAt": "2025-04-23T06:48:40.907Z"
+    },
+    {
+      "id": "15c74d85-8725-498e-b24b-9290703bd40d",
+      "createdAt": "2025-04-23T07:12:03.570Z",
+      "status": "completed",
+      "player1": {
+        "id": "3c2d1b7f-2a53-4435-9bae-d93d6eed3057",
+        "name": "Leo",
+        "pokemonId": 3,
+        "ready": true
+      },
+      "player2": {
+        "id": "ddff3255-c9df-4abd-92ab-c9ccc0e7aec1",
+        "name": "Halon",
+        "pokemonId": 807,
+        "ready": true
+      },
+      "result": {
+        "winner": "player2",
+        "rounds": [
+          {
+            "stat": "hp",
+            "values": {
+              "player1": 80,
+              "player2": 88
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "attack",
+            "values": {
+              "player1": 82,
+              "player2": 112
+            },
+            "winner": "player2"
+          },
+          {
+            "stat": "speed",
+            "values": {
+              "player1": 80,
+              "player2": 143
+            },
+            "winner": "player2"
+          }
+        ],
+        "completedAt": "2025-04-23T07:13:17.089Z"
+      },
+      "expiresAt": "2025-04-23T08:12:03.570Z"
+    }
+  ]
+}
