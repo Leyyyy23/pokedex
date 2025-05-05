@@ -264,7 +264,7 @@ const BattleJoin = () => {
   );
 };
 
-// Helper function to get color based on Pokémon type
+// Helper function to get color based on Pokémon types
 function getTypeColor(type) {
   const typeColors = {
     normal: '#A8A77A',
